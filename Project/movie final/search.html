@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>App search page</title>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <div>
+                <span></span><span></span><span></span>
+            </div>
+            <div>
+                <a href="index.html"><img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt=""></a>
+            </div>
+           <div>
+            <p>TV</p>
+           </div>
+           <div>
+            <p>Movies</p>
+           </div>
+           <div>
+            <p>Sports</p>
+           </div>
+            <button class="navbtn">Disney+</button>
+            <button class="navbtn">KIDS</button>
+           </div>
+        <div>
+            <!-- <input class="navbtn" id="movie_name" type="Search" placeholder="Search"> -->
+            <!-- <button onclick="searchMovies()" class="navbtn">Search Movies</button> -->
+            <input  type="text" id="movie_name">
+            
+            <button class="navbtn">SUBSCRIBE</button>
+            <button class="navbtn" id="login">LOGIN</button>
+        </div>
+    </div>
+    <div id="carousel"></div>
+    <div id="loader_div">
+        <img id="loader_gif" src="https://media2.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif?cid=ecf05e477199gxjv1a25km5esqc87zczrq3s4bxiv356auwo&rid=giphy.gif&ct=g" alt="">
+    </div>
+    <div id="movies"></div>
+</body>
+</html>
+<script  src="search.js"></script>
+<!-- type="module" -->
