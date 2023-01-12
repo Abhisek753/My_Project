@@ -23,7 +23,7 @@ showItem();
     console.log("err",err)
  }
     
-
+ 
 }
 // showItem()
 cart_div=document.getElementById("items");
